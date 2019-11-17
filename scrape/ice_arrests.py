@@ -29,7 +29,7 @@ def main():
         except NoSuchElementException:
             print(f"{state} not available.")
 
-    full_df = full_df.loc[full_df.MonthYear != "All"]
+    full_df = full_df.loc[(full_df.MonthYear != "All") & (full_df.County != "All")]
     full_df.to_csv("data/all_states_ice_arrest.csv", index=False)
 
 
