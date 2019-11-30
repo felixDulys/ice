@@ -1,0 +1,11 @@
+# pycharm
+*.idea
+*.pyc
+
+# environment
+/venv
+
+
+# data
+*.csv
+*.txt
