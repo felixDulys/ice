@@ -1,5 +1,6 @@
 import pandas as pd
 from pandas.tseries.offsets import MonthEnd
+from scrape.config import STATES
 import csv
 import json
 
